@@ -424,7 +424,8 @@ func EnsureMethods(w http.ResponseWriter,
 //		shutdown()
 //
 //		// Waiting gracefully.
-//		grace, disgrace := context.WithTimeout(context.Background(), ttl*time.Second)
+//		grace, disgrace := context.WithTimeout(context.Background(),
+//			ttl*time.Second)
 //		defer disgrace()
 //
 //		log.Printf("source=%q msg=%q\n", "main", "graceful shutdown")
