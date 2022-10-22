@@ -430,7 +430,10 @@ func EnsureMethods(w http.ResponseWriter,
 //		log.Printf("source=%q msg=%q\n", "main", "graceful shutdown")
 //
 //		if err := server.Shutdown(grace); err != nil {
-//			log.Printf("source=%q msg=%q reason=%q\n", "main", "forced shutdown", err)
+//			log.Printf("source=%q msg=%q reason=%q\n",
+//				"main",
+//				"forced shutdown",
+//				err)
 //		}
 //	}
 type Route struct {
